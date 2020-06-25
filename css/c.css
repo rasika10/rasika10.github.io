@@ -1,0 +1,63 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial;
+overflow-x: hidden;
+
+}
+
+
+
+
+
+.header {
+
+  overflow: hidden;
+  background-color: white;
+  padding: 00px 00px;
+  padding-left: 20px;
+  width: auto;
+  padding-right: 30px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10), 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+
+
+}
+
+
+
+
+.header .logo {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration-color: #474849;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    display: block;
+    float: none;
+
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.button{
+  align-items: center;
+  color: black;
+}
+
+/* Make the image fully responsive */
+
+
+
+
+
+body {
+    background: whitesmoke;
+    font-family: 'Open Sans', sans-serif, verdana;
+}
